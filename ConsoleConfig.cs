@@ -7,7 +7,7 @@ internal class ConsoleConfig
         Console.WindowWidth = 51;
         Console.WindowHeight = 30;
         Console.ForegroundColor = ConsoleColor.Green;
-        Console.WriteLine(@"     ░▒▓███████▓▒░░▒▓███████▓▒░░▒▓█▓▒░░▒▓█▓▒░ 
+        Console.WriteLine(@"░▒▓███████▓▒░░▒▓███████▓▒░░▒▓█▓▒░░▒▓█▓▒░ 
 ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ 
 ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ 
 ░▒▓███████▓▒░░▒▓███████▓▒░ ░▒▓██████▓▒░  
