@@ -38,8 +38,14 @@ internal class RobloxClient
             {
                 try
                 {
-                    robloxMutex = new Mutex(true, "ROBLOX_singletonMutex");
-                    return true;
+                    bool createdNew;
+                    robloxMutex = new Mutex(true, "ROBLOX_singletonMutex", out createdNew);
+
+                    if (createdNew)
+                    {
+                        return true;
+                    }
+                    else robloxMutex = null;
                 }
                 catch { }
             }
