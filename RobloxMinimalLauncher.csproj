@@ -43,8 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConsoleConfig.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistryUtils.cs" />
+    <Compile Include="RobloxClient.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
